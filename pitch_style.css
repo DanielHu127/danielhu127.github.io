@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    background-color: #1a1a1a; /* Dark background for contrast */
+    color: white;
+    padding: 20px;
+}
+
+.section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+/* Color Themes */
+.game-concept { background-color: #B22222; } /* Red */
+.target-audience { background-color: #008000; } /* Green */
+.monetization { background-color: #1E90FF; } /* Blue */
+.development { background-color: #B22222; } /* Red */
+.marketing { background-color: #008000; } /* Green */
+.cta { background-color: #1E90FF; } /* Blue */
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FFD700; 
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #FFA500;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #005f6b;
+}
